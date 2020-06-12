@@ -4,6 +4,10 @@ This project required taking an existing set of code and refactoring it to make 
 
 ![screenshot](code-snapshot.png)
 
+## Deployed Link
+
+* [See Live Site](#)
+
 ## Prerequisites
 
 You'll need an IDE such as VS Code or Atom.
@@ -13,3 +17,15 @@ https://code.visualstudio.com/download
 
 https://flight-manual.atom.io/getting-started/sections/installing-atom/
 ```
+
+## Built With
+
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+## Authors
+
+* Giovanni Noisy
+
+- [Link to Github](https://github.com/GNoisy)
+- [Link to LinkedIn](https://www.linkedin.com/in/giovanni-noisy-04098989/)
