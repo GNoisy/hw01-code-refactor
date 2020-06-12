@@ -10,7 +10,7 @@ This project required taking an existing set of code and refactoring it to make 
 
 ## Prerequisites
 
-You'll need an IDE such as VS Code or Atom.
+You'll need an IDE such as VS Code or Atom. Copy and paste code into your IDE and you can save file to your local drive.
 
 ```
 https://code.visualstudio.com/download
@@ -25,7 +25,12 @@ https://flight-manual.atom.io/getting-started/sections/installing-atom/
 
 ## Authors
 
-* Giovanni Noisy
+* **Giovanni Noisy**
 
 - [Link to Github](https://github.com/GNoisy)
 - [Link to LinkedIn](https://www.linkedin.com/in/giovanni-noisy-04098989/)
+
+### Acknowledgments
+
+* MDN 
+* Stack Overflow
