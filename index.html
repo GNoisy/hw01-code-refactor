@@ -10,12 +10,12 @@
 
     <body>
 
-        <!--Semantic tag-->
+        <!--Instead of header class I used header semantic tag-->
         <header>
 
             <h1>Hori<span class="seo">seo</span>n</h1>
 
-            <!--Semantic tag-->
+            <!--I used nav semantic tag here instead of div-->
             <nav>
                 <ul>
                     <li>
@@ -23,9 +23,11 @@
                         <a href="#search">Search Engine Optimization</a>
                     </li>
                     <li>
+                        <!--Simplified href link id names to take user to page section-->
                         <a href="#online">Online Reputation Management</a>
                     </li>
                     <li>
+                        <!--Simplified href link id names to take user to page section-->
                         <a href="#social">Social Media Marketing</a>
                     </li>
                 </ul>
@@ -33,21 +35,21 @@
 
         </header>
 
-        <!--Semantic tag-->
+        <!--Contained all main elements inside main semantic tag-->
         <main>
 
-            <!--Added image here instead of inside the CSS file-->
+            <!--Added image here instead of inside the CSS file and gave it new class name to make adding alt description easier and styling. Gave it semantic tag figure-->
             <figure class="wrapper"> 
                 <img src="./assets/images/digital-marketing-meeting.jpg" alt="Boardroom meeting" style="max-width:100%; height:auto;">
             </figure>
 
-            <!--Semantic tag-->
+            <!--Used article semantic tag to contain info for user-->
             <article>
 
-                <!--Semantic tag-->
+                <!--The more important info got semantic tag of section-->
                 <section class="content">
 
-                    <!--Used same class names on content divs to simplify css-->
+                    <!--Used same class names on content divs to simplify css and gave id to match href link-->
                     <div id="search" class="company-info">
                         <img src="./assets/images/search-engine-optimization.jpg" alt="image of desktop" class="float-left" />
                         <h2>Search Engine Optimization</h2>
@@ -56,6 +58,7 @@
                         </p>
                     </div>
 
+                    <!--Used same class names on content divs to simplify css and gave id to match href link-->
                     <div id="online" class="company-info">
                         <img src="./assets/images/online-reputation-management.jpg" alt="person using laptop" class="float-right" />
                         <h2>Online Reputation Management</h2>
@@ -64,6 +67,7 @@
                         </p>
                     </div>
 
+                    <!--Used same class names on content divs to simplify css and gave id to match href link-->
                     <div id="social" class="company-info">
                         <img src="./assets/images/social-media-marketing.jpg" alt="images of several icons" class="float-left" />
                         <h2>Social Media Marketing</h2>
@@ -74,7 +78,7 @@
 
                 </section>
 
-                <!--Semantic tag-->
+                <!--Less important info got semantic tag aside-->
                 <aside class="benefits">
 
                     <!--Used same class name on the aside divs to simplify css-->
@@ -85,6 +89,8 @@
                             Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
                         </p>
                     </div>
+
+                    <!--Used same class name on the aside divs to simplify css-->
                     <div class="company-strategy">
                         <h3>Brand Awareness</h3>
                         <img src="./assets/images/brand-awareness.png" alt="icon" />
@@ -92,6 +98,8 @@
                             Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
                         </p>
                     </div>
+
+                    <!--Used same class name on the aside divs to simplify css-->
                     <div class="company-strategy">
                         <h3>Cost Management</h3>
                         <img src="./assets/images/cost-management.png" alt="icon" />
@@ -106,7 +114,7 @@
 
         </main>
 
-        <!--Created footer tag instead of class-->
+        <!--Used footer semantic tag instead of div with class of footer-->
         <footer>
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>
